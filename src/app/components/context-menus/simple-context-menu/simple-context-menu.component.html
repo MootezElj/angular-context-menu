@@ -1,0 +1,11 @@
+<div class="main-container"
+     [style.top]="posY+'px'"
+     [style.left]="posX+'px'"
+>
+  <ul>
+    <li (click)="onActionCall('add')">Add</li>
+    <li (click)="onActionCall('edit')">Edit</li>
+    <li (click)="onActionCall('delete')">Delete</li>
+    <li (click)="onActionCall('view')">View</li>
+  </ul>
+</div>

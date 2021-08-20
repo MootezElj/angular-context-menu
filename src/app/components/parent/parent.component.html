@@ -1,0 +1,11 @@
+<div (click)='hideSimpleContextMenu()'
+     (contextmenu)="displayContextMenu($event)" class="main-container">
+  <h4>Click to trigger context menu</h4>
+</div>
+<app-simple-context-menu
+  (actionCall)="onContextMenuAction($event)"
+  [posX]="simpleContextMenuPosX"
+  [posY]="simpleContextMenuPosY"
+  [class.hidden]="!isShownSimpleContextMenu">
+
+</app-simple-context-menu>
