@@ -1,3 +1,8 @@
+# About the app
+A simple angular context menu solution.
+
+Covered in details in this [article](https://www.devb-log.com/2021/08/the-best-way-to-make-native-context-menus/).
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
